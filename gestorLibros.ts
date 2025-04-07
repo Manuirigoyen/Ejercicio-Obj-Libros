@@ -90,9 +90,9 @@ export class GestorLibros {
     this.menu();
   }
 
-  private verListaLibros(): void {
+  private verListaLibros(): void {            //Para ver la lista completa de los libros que hay registrados
     if (this.libros.length === 0) {
-      console.log('No hay libros cargados!');
+      console.log('No hay libros cargados!');  
     } else {
       console.log('Lista de libros:');
       this.libros.forEach((libro, indice) => {
